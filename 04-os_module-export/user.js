@@ -1,3 +1,5 @@
+/** Saját modult hozunk létre */
+
 //ez nincs benne az exportban, így úgy viselkedik, mintha privát lenne, tehát kívülről nem lesz elérhető
 const saySomething = 'Something';
 

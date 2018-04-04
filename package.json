@@ -1,0 +1,32 @@
+{
+  "name": "nodestarter",
+  "version": "1.0.0",
+  "description": "NodeJS tutorial examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rekaert/NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "events",
+    "http",
+    "fs",
+    "os",
+    "requires"
+  ],
+  "author": "Ertsey Réka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rekaert/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Rekaert/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "yargs": "^11.0.0"
+  }
+}
