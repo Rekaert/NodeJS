@@ -44,11 +44,17 @@ function addOneTo(number, callback) {
 
 
 //5 + 1
+//így nem működik
 addOneTo(5, res => {
+    console.log(res);
+});
+//csak így:
+addOneTo(5).then(res => { //res = resolve()-nak megadott paraméterrel => result
     console.log(res);
 });
 
 //5 + 1 + 1 + 1 + 1 + 1
+
 addOneTo(5)
     .then(res1 => addOneTo(res1))
     .then(res2 => addOneTo(res2))

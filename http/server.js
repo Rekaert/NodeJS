@@ -1,4 +1,5 @@
 //http modullal tudunk szervert létrehozni
+//kiszolgálja a szabványos http kéréseket
 const http = require('http');
 
 http.createServer((req, res) => { //van egy kérés és válasz paraméter

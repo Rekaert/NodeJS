@@ -1,4 +1,5 @@
-//így használhatun bármilyen globálisan elérhető modult, a zárójelek közé mindig adott modul neve kell
+//így használhatunk bármilyen globálisan elérhető modult, a zárójelek közé mindig adott modul neve kell
+//Az fs modul egy API-t biztosít a fájlrendszerrel való interakcióhoz a szokásos POSIX függvényekhez közelítve.
 const fs = require('fs');
 
 //a const-hoz az appendFile hozzáadja 1. param: a fájl útvonala, amihez hozzáadja, 2. param a szöveg, amit hozzáad a fájlhoz, 3. param call back

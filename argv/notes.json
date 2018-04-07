@@ -7,4 +7,7 @@
 }, {
     "title": "my custom title",
     "body": "my custom body"
+}, {
+    "title": "your custom title",
+    "body": "your custom body"
 }]

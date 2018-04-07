@@ -5,7 +5,7 @@ const fs = require('fs');
 //fájl elérési útvonala
 let file = './03-fs/file.txt';
 
-// https://node.js.org/api/fs.html
+// https://nodejs.org/api/fs.html
 
 //READ file
 
@@ -21,7 +21,7 @@ fs.readFile(file, function (err, data) {
 console.log('Stop');
 
 //file beolvasása szinkron
-//A beolvasott file tartalmát stringé alakítjuk
+//A beolvasott file tartalmát stringgé alakítjuk
 //sinkront fogja először lefuttatni
 let data = fs.readFileSync(file);
 console.log("Syncronous read: \n" + data.toString());

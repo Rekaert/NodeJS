@@ -1,3 +1,5 @@
+//az útvonal modul segédprogramokat biztosít a fájlok és könyvtárak eléréséhez.
+
 const path = require('path');
 
 //megadok egy útvonalat
